@@ -13,4 +13,8 @@ func main() {
 	// Get The Length of a Map
 	mapLen := len(presAge)
 	fmt.Println(mapLen)
+
+	// remove element from a Map
+	delete(presAge, "TheodoreRoosevelt")
+	fmt.Println(len(presAge))
 }
